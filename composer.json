@@ -1,0 +1,23 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Alura\\Calisthenics\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alura\\Calisthenics\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "github-oauth": {
+            "github.com": "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"
+        }
+    },
+    "require": {
+        "php-ds/php-ds": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
